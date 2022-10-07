@@ -20,7 +20,7 @@ Just experimenting with different ways to load CLR (.NET) assemblies on VBA loca
 - Creating a COM object for `Word.Application` (or `Excel.Application` ..etc), will result spawning an additional `WinWord.exe` as a child process of svchost.exe instead of the main `WinWord.exe` process.
 - `AccessVBOM` Registry key is modified/restored via COM using `WScript.Shell` , using win32 APIs could be a better alternative.
 - Hosting the CLR using win32 APIs on VBA is obviously safer than updating the `AccessVBOM` registry key, will leave this for an other day...
-- Other .NET APIs such as `System.CodeDom.Compiler` to compile/execute c# code from VBA, check reference below;
+- Other .NET APIs such as `System.CodeDom.Compiler` can be used to compile/execute c# code from VBA, check reference below;
 
  
 ### References:
