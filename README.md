@@ -1,7 +1,7 @@
 ### TLDR:
 Just experimenting with different ways to load CLR (.NET) assemblies on VBA locally and remotely by using `AppDomain.ExecuteAssembly` or any other handy method after getting arround `AccessVBOM` (programmatic access to visual basic project is not trusted) from VBA.
 
- * `vbaclr-**.vba`: 
+ * `vba2clr.*.vba`: 
    * Sets AccessVBOM regkey to 1
    * Instantiate a `Word.Application` COM object. (could be `Excel.Application` MS PowerPoint, Access ..etc).
    * Add Macro From String (Macro corresponds to b64/hex encoded ExecuteAssembly.vba)
