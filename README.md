@@ -25,7 +25,7 @@ Just experimenting with different ways to load CLR (.NET) assemblies on VBA loca
  
 ### References:
 
-* https://github.com/jet2jet/vb2clr/blob/master/CLRHost.cls
+* https://github.com/jet2jet/vb2clr
 * https://github.com/med0x2e/NET-Assembly-Inject-Remote
 
 
