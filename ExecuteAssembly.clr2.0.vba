@@ -4,7 +4,7 @@ Private Declare PtrSafe Function DispCallFunc Lib "oleaut32.dll" (ByVal pv As Lo
 
 Sub Stg1()
     
-    'Change the .NET version if required.
+    'This will by default load CLR 2.0 even if you load v4.0.30319 TLBs. Only assemblie built with .NET 3.5 or 2.0 are supported
     '.NET 3.5 -> v2.0.50727
     '.NET 4.x -> v4.0.30319
     ThisDocument.VBProject.References.AddFromFile "C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscoree.tlb"
